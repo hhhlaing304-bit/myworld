@@ -16,7 +16,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 html {
@@ -2202,6 +2201,9 @@ section .layout p:nth-child(4) {
 }
 
 @media (max-width: 400px) {
+    *{
+            overflow-x: hidden;
+    }
 
     header {
         width: 100%;
