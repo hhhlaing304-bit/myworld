@@ -38,7 +38,7 @@ body {
 /* Header Navbar */
 header {
     position: fixed;
-    z-index: 1000;
+    z-index: 10;
     top: 0;
     left: 0;
     width: 100%;
@@ -2200,10 +2200,8 @@ section .layout p:nth-child(4) {
     }
 }
 
-@media (max-width: 400px) {
-    *{
-            overflow-x: hidden;
-    }
+@media (max-width: 500px) {
+    
 
     header {
         width: 100%;
